@@ -1,0 +1,5 @@
+<form [formGroup]="loginForm" (ngSubmit)="login()">
+  <input placeholder="Name" formControlName="name" />
+  <input placeholder="Email Address" formControlName="email" />
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
